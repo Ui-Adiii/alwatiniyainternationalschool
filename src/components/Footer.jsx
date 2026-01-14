@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Brand */}
          {/* Brand */}
 <div>
-  <div className="h-24 w-24">
+  <div className="h-24 w-24 flex items-center justify-center bg-white rounded-full">
     <img src="/logo.png" className="w-full h-full object-cover" alt="" />
   </div>
 
