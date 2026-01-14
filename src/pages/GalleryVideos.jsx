@@ -12,7 +12,7 @@ const galleryVideos = [video1, video2, video3, video4, video5, video6];
 const GalleryVideo = () => {
   return (
     <>
-    <section className="py-20 bg-gradient-to-r from-green-500 to-green-600 text-white text-center">
+    <section className="py-20 bg-gradient-to-r  from-green-700 to-green-800 text-white text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">
           Campus Gallery
         </h1>

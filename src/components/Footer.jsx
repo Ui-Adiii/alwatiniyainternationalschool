@@ -10,16 +10,31 @@ const Footer = () => {
         <div className="grid gap-10 md:grid-cols-4">
 
           {/* Brand */}
-          <div>
-            <div className="h-24 w-24">
-              <img src="/logo.png" className="w-full h-full object-cover" alt="" />
-            </div>
-            <p className="mt-4 text-sm leading-relaxed">
-              Al-Wataniya International School provides holistic education
-              in an Islamic environment, following CBSE pattern with
-              strong focus on values, discipline, and academics.
-            </p>
-          </div>
+         {/* Brand */}
+<div>
+  <div className="h-24 w-24">
+    <img src="/logo.png" className="w-full h-full object-cover" alt="" />
+  </div>
+
+  <p className="mt-4 text-sm leading-relaxed">
+    Al-Wataniya International School provides holistic education
+    in an Islamic environment, following CBSE pattern with
+    strong focus on values, discipline, and academics.
+  </p>
+
+  {/* Leadership */}
+  <div className="mt-4 text-sm text-gray-400 space-y-1">
+    <p>
+      <span className="text-white font-medium">Director:</span>{" "}
+      Abdul Kadir
+    </p>
+    <p>
+      <span className="text-white font-medium">Principal:</span>{" "}
+      Md Zeeshan Hasmi
+    </p>
+  </div>
+</div>
+
 
           {/* Quick Links */}
           <div>

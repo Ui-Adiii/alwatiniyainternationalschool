@@ -5,10 +5,10 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const linkClass = ({ isActive }) =>
-    `block py-2 ${isActive ? "text-yellow-400" : "text-white"}`;
+    `block py-2 ${isActive ? "text-yellow-400" : "text-black"}`;
 
   return (
-    <header className="sticky  top-0 z-50 bg-slate-900">
+    <header className="sticky  text-black border-b border-green-800 top-0 z-50 bg-white">
       <nav className="max-w-7xl mx-auto px-4">
         {/* Top Bar */}
         <div className="flex items-center justify-between h-24">

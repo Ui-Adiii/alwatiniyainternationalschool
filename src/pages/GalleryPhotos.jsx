@@ -32,7 +32,7 @@ const GalleryPhoto = ({heading=false}) => {
     <div className="min-h-screen bg-white text-gray-800">
 
       {/* Hero Section */}
-      {heading && <section className="py-20 bg-gradient-to-r from-green-500 to-green-600 text-white text-center">
+      {heading && <section className="py-20 bg-gradient-to-r from-green-700 to-green-800 text-white text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">
           School Gallery
         </h1>

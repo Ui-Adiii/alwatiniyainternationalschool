@@ -12,7 +12,7 @@ const About = () => {
     <div className="min-h-screen bg-white text-gray-800">
 
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-green-500 to-green-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-green-700 to-green-800 text-white">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">
             About Al-Wataniya
@@ -26,21 +26,44 @@ const About = () => {
       {/* About Content */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 space-y-6 text-lg leading-relaxed">
-          <p>
-            <span className="font-semibold text-green-600">
-              Al-Wataniya International School
-            </span>{" "}
-            is a CBSE-pattern, English-medium institution dedicated to nurturing
-            young minds through quality education, moral values, and Islamic
-            teachings.
-          </p>
+  <p>
+    <span className="font-semibold text-green-600">
+      Al-Wataniya International School
+    </span>{" "}
+    is a CBSE-pattern, English-medium institution dedicated to nurturing
+    young minds through quality education, moral values, and Islamic
+    teachings.
+  </p>
 
-          <p>
-            We believe education is not only about academics, but also about
-            discipline, character building, and overall personality
-            development in a safe, caring, and value-based environment.
-          </p>
-        </div>
+  <p>
+    We believe education is not only about academics, but also about
+    discipline, character building, and overall personality development
+    in a safe, caring, and value-based environment.
+  </p>
+
+  {/* Leadership */}
+  <div className="pt-6 border-t border-gray-200">
+    <h3 className="text-2xl font-semibold mb-4 text-gray-800">
+      School Leadership
+    </h3>
+
+    <p>
+      <span className="font-semibold text-gray-900">
+        Abdul Kadir
+      </span>{" "}
+      — Director, Senior Research Scholar cum Assistant Professor at
+      Ranchi University, Ranchi.
+    </p>
+
+    <p>
+      <span className="font-semibold text-gray-900">
+        Md Zeeshan Hasmi
+      </span>{" "}
+      — Principal, Research Scholar at Vinoba Bhave University.
+    </p>
+  </div>
+</div>
+
       </section>
 
       {/* Mission & Vision */}
