@@ -45,7 +45,7 @@ const Features = () => {
     <div className="min-h-screen bg-white text-gray-800">
 
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-sky-500 to-blue-600 text-white text-center">
+      <section className="py-20 bg-gradient-to-r from-green-500 to-green-600 text-white text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">
           Our Features
         </h1>
@@ -64,8 +64,8 @@ const Features = () => {
                 key={index}
                 className="bg-white rounded-xl border shadow-sm hover:shadow-lg transition p-6 text-center"
               >
-                <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-sky-100 mb-5">
-                  <Icon className="text-sky-600 text-3xl" />
+                <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-green-100 mb-5">
+                  <Icon className="text-green-600 text-3xl" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">
                   {item.title}

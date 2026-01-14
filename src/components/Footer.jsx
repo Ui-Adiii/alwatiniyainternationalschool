@@ -11,9 +11,9 @@ const Footer = () => {
 
           {/* Brand */}
           <div>
-            <h2 className="text-xl font-bold text-yellow-400">
-              Al-Wataniya
-            </h2>
+            <div className="h-24 w-24">
+              <img src="/logo.png" className="w-full h-full object-cover" alt="" />
+            </div>
             <p className="mt-4 text-sm leading-relaxed">
               Al-Wataniya International School provides holistic education
               in an Islamic environment, following CBSE pattern with

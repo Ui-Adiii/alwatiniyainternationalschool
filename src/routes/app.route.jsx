@@ -6,6 +6,7 @@ import About from "../pages/About";
 import Gallery from "../pages/Gallery";
 import Contact from "../pages/Contact";
 import Feature from "../pages/Feature";
+import GalleryVideo from "../pages/GalleryVideos";
 const AppRoute = () => {
   return (
     <Router>

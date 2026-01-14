@@ -8,13 +8,13 @@ const Navbar = () => {
     `block py-2 ${isActive ? "text-yellow-400" : "text-white"}`;
 
   return (
-    <header className="sticky top-0 z-50 bg-slate-900">
+    <header className="sticky  top-0 z-50 bg-slate-900">
       <nav className="max-w-7xl mx-auto px-4">
         {/* Top Bar */}
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
-          <NavLink to={"/"}>
-            <h1 className="text-lg font-bold text-yellow-400">Al-Wataniya</h1>
+          <NavLink to={"/"} className={'w-24 h-24'}>
+            <img src="/logo.png" className="w-full h-full object-cover" alt="" />   
           </NavLink>
 
           {/* Hamburger */}

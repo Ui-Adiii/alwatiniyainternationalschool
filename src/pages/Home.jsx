@@ -3,14 +3,15 @@ import Hero from './Hero'
 import Features from './Feature'
 import About from './About'
 import Contact from './Contact'
-import Gallery from './Gallery'
+import GalleryPhoto from './GalleryPhotos'
 
 const Home = () => {
   return (
     <>
       <Hero />
       <Features />
-      <Gallery/>
+
+      <GalleryPhoto heading={true} />
       <About />
       <Contact />
 
