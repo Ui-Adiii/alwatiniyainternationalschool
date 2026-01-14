@@ -31,7 +31,7 @@ const Contact = () => {
             <h3 className="text-xl font-semibold mb-1">Phone Support</h3>
             <p className="font-medium">9279809145 , 6201543640</p>
             <p className="text-sm text-gray-500 mt-1">
-              Monday – Saturday | 10 AM – 6 PM
+              Monday – Saturday | 9:00 AM – 12:30 PM
             </p>
           </div>
 
@@ -128,7 +128,7 @@ const Contact = () => {
         <div className="flex items-center justify-center gap-3 text-gray-700">
           <FaClock className="text-green-600 text-xl" />
           <p className="text-lg font-medium">
-            Office Hours: Monday – Saturday | 10:00 AM – 6:00 PM
+            Office Hours: Monday – Saturday | 9:00 AM – 12:30 PM
           </p>
         </div>
       </section>

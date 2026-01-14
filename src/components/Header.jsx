@@ -65,7 +65,7 @@ const Navbar = () => {
               to="/feature"
               className={linkClass}
             >
-              Home
+              Feature
             </NavLink>
             <NavLink
               onClick={() => setOpen(false)}
