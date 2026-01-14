@@ -12,7 +12,7 @@ const About = () => {
     <div className="min-h-screen bg-white text-gray-800">
 
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-sky-500 to-blue-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-green-500 to-green-600 text-white">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">
             About Al-Wataniya
@@ -27,7 +27,7 @@ const About = () => {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 space-y-6 text-lg leading-relaxed">
           <p>
-            <span className="font-semibold text-sky-600">
+            <span className="font-semibold text-green-600">
               Al-Wataniya International School
             </span>{" "}
             is a CBSE-pattern, English-medium institution dedicated to nurturing
@@ -53,7 +53,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Mission */}
             <div className="bg-white border rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
-              <FaBullseye className="text-sky-600 text-4xl mx-auto mb-4" />
+              <FaBullseye className="text-green-600 text-4xl mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Our Mission</h3>
               <p className="text-sm text-gray-600">
                 To provide holistic education combining academics, values,
@@ -63,7 +63,7 @@ const About = () => {
 
             {/* Vision */}
             <div className="bg-white border rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
-              <FaEye className="text-sky-600 text-4xl mx-auto mb-4" />
+              <FaEye className="text-green-600 text-4xl mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Our Vision</h3>
               <p className="text-sm text-gray-600">
                 To shape responsible, confident, and value-driven citizens.
@@ -72,7 +72,7 @@ const About = () => {
 
             {/* Excellence */}
             <div className="bg-white border rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
-              <FaAward className="text-sky-600 text-4xl mx-auto mb-4" />
+              <FaAward className="text-green-600 text-4xl mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Excellence</h3>
               <p className="text-sm text-gray-600">
                 High academic standards with continuous improvement.
@@ -81,7 +81,7 @@ const About = () => {
 
             {/* Community */}
             <div className="bg-white border rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
-              <FaUsers className="text-sky-600 text-4xl mx-auto mb-4" />
+              <FaUsers className="text-green-600 text-4xl mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Community</h3>
               <p className="text-sm text-gray-600">
                 Growth, care, and success together.
