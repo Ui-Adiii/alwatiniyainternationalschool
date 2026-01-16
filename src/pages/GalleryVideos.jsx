@@ -18,7 +18,7 @@ const GalleryVideo = () => {
         </h1>
         <p className="text-lg sm:text-xl max-w-2xl mx-auto opacity-95">
           Experience real moments from classrooms, activities, and student life at
-          Al-Wataniya International School.
+          AL-Wataniya International School.
         </p>
       </section>
     <section className="py-16 ">

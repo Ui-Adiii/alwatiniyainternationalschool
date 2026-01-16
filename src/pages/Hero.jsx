@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Background Image / Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="https://www.pexels.com/download/video/3209663"
+        src="/hero-bg.webm"
         autoPlay
         muted
         loop
@@ -26,7 +26,7 @@ const Hero = () => {
             <span className="block text-green-400 mt-2">
               Strong Educational Foundation
             </span>
-            with Al-Wataniya
+            with AL-Wataniya
           </h1>
 
           {/* Subheading */}

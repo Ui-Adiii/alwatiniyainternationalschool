@@ -8,164 +8,130 @@ import { FaEnvelope } from "react-icons/fa";
 import Heading from "../components/Heading";
 import ContactUsCard from "../components/ContactUsCard";
 
-const Contact = () => {
+const Enquire = () => {
   return (
     <div className="min-h-screen bg-white text-gray-800">
       {/* Hero Section */}
       <Heading
-        title={"Contact Us"}
+        title={"Enquire About Student"}
         subtitle={
-          "We are here to help you with admissions and any school-related queries."
+          "For any queries regarding students, please submit the form with the student’s name, class, mobile number, and address. Our team will assist you shortly."
         }
       />
 
-      {/* Contact Info */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Phone */}
-          <ContactUsCard
-            Icon={FaPhoneAlt}
-            title={"Phone Support"}
-            description={"9279809145 , 6201543640"}
-            sub={"Monday – Saturday | 9:00 AM – 12:30 PM"}
-          />
-          <ContactUsCard
-            Icon={FaMapMarkerAlt}
-            title={"School Address"}
-            sub={"Millat Colony, Kanke, Ranchi – 834006"}
-          />
-          <ContactUsCard
-            Icon={FaEnvelope}
-            title={"Email"}
-            description={"info@alwataniya.edu"}
-            sub={"For admissions & general inquiries"}
-          />
-        </div>
-      </section>
-
-      {/* Contact Form */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold mb-3">
-              Get in Touch
+              Student Query
             </h2>
             <p className="text-gray-600 text-lg">
-              Fill out the form and we’ll contact you shortly.
+              Submit your query related to a student and we’ll get back to you
+              shortly.
             </p>
           </div>
 
           <form className="bg-white border rounded-xl shadow-sm p-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Full Name */}
+            {/* Student Name */}
             <div>
               <label
-                htmlFor="fullName"
+                htmlFor="studentName"
                 className="block mb-1 text-sm font-medium text-gray-700"
               >
-                Full Name
+                Student Name
               </label>
               <input
-                id="fullName"
+                id="studentName"
                 type="text"
-                placeholder="Full Name"
+                placeholder="Enter student name"
                 required
                 className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-400"
               />
             </div>
 
-            {/* Email */}
+            {/* Class / Section */}
             <div>
               <label
-                htmlFor="email"
+                htmlFor="classSection"
                 className="block mb-1 text-sm font-medium text-gray-700"
               >
-                Email Address
+                Class / Section
               </label>
               <input
-                id="email"
-                type="email"
-                placeholder="Email Address"
+                id="classSection"
+                type="text"
+                placeholder="e.g. Class 8 - A"
                 required
                 className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-400"
               />
             </div>
 
-            {/* Phone */}
+            {/* Mobile Number */}
             <div>
               <label
-                htmlFor="phone"
+                htmlFor="mobile"
                 className="block mb-1 text-sm font-medium text-gray-700"
               >
-                Phone Number
+                Parent / Guardian Mobile Number
               </label>
               <input
-                id="phone"
+                id="mobile"
                 type="tel"
-                placeholder="Phone Number"
+                placeholder="Enter mobile number"
                 required
                 className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-400"
               />
             </div>
 
-            {/* Subject */}
+            {/* Address */}
             <div>
               <label
-                htmlFor="subject"
+                htmlFor="address"
                 className="block mb-1 text-sm font-medium text-gray-700"
               >
-                Subject
+                Address
               </label>
               <input
-                id="subject"
+                id="address"
                 type="text"
-                placeholder="Subject"
+                placeholder="Enter address"
                 required
                 className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-400"
               />
             </div>
 
-            {/* Message */}
+            {/* Query Message */}
             <div className="md:col-span-2">
               <label
-                htmlFor="message"
+                htmlFor="query"
                 className="block mb-1 text-sm font-medium text-gray-700"
               >
-                Message
+                Query Details
               </label>
               <textarea
-                id="message"
+                id="query"
                 rows={5}
-                placeholder="Write your message here..."
+                placeholder="Write your query about the student here..."
                 required
                 className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-400"
               />
             </div>
 
-            {/* Button */}
+            {/* Submit Button */}
             <div className="md:col-span-2 text-center">
               <button
                 type="submit"
                 className="inline-flex items-center gap-2 px-8 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-full transition"
               >
                 <FaPaperPlane />
-                Send Message
+                Submit Query
               </button>
             </div>
           </form>
-        </div>
-      </section>
-
-      {/* Business Hours */}
-      <section className="py-12 bg-gray-50">
-        <div className="flex items-center justify-center gap-3 text-gray-700">
-          <FaClock className="text-green-600 text-xl" />
-          <p className="text-lg font-medium">
-            Office Hours: Monday – Saturday | 9:00 AM – 12:30 PM
-          </p>
         </div>
       </section>
     </div>
   );
 };
 
-export default Contact;
+export default Enquire;

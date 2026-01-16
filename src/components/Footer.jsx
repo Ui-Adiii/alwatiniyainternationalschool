@@ -12,11 +12,11 @@ const Footer = () => {
 
 <div>
   <div className="h-24 w-24 flex items-center justify-center bg-white rounded-full">
-    <img src="/logo.png" className="w-full h-full object-cover" alt="" />
+    <img src="/logo.png" className="w-full h-full object-cover" alt="logo" />
   </div>
 
   <p className="mt-4 text-sm leading-relaxed">
-    Al-Wataniya International School provides holistic education
+    AL-Wataniya International School provides holistic education
     in an Islamic environment, following CBSE pattern with
     strong focus on values, discipline, and academics.
   </p>
@@ -43,6 +43,7 @@ const Footer = () => {
               <li><Link to="/about" className="hover:text-yellow-400">About Us</Link></li>
               <li><Link to="/gallery" className="hover:text-yellow-400">Gallery</Link></li>
               <li><Link to="/contact" className="hover:text-yellow-400">Contact Us</Link></li>
+              <li><Link to="/enquire" className="hover:text-yellow-400">Enquire</Link></li>
             </ul>
           </div>
 
@@ -113,7 +114,7 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="text-center text-sm text-gray-400">
-          © {new Date().getFullYear()} Al-Wataniya International School.
+          © {new Date().getFullYear()} AL-Wataniya International School.
           All rights reserved.
         </div>
       </div>

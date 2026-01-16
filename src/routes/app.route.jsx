@@ -7,6 +7,7 @@ import Gallery from "../pages/Gallery";
 import Contact from "../pages/Contact";
 import Feature from "../pages/Feature";
 import GalleryVideo from "../pages/GalleryVideos";
+import Enquire from "../pages/Enquire";
 const AppRoute = () => {
   return (
     <Router>
@@ -16,7 +17,8 @@ const AppRoute = () => {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/feature" element={<Feature />} />
+        <Route path="/facility" element={<Feature />} />
+        <Route path="/enquire" element={<Enquire />} />
       </Routes>
       <Footer />
     </Router>

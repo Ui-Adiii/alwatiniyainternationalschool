@@ -30,14 +30,17 @@ const Navbar = () => {
             <NavLink to="/" end className={linkClass}>
               Home
             </NavLink>
-            <NavLink to="/feature" className={linkClass}>
-              Features
+            <NavLink to="/facility" className={linkClass}>
+              Our Facilities
             </NavLink>
             <NavLink to="/about" className={linkClass}>
               About Us
             </NavLink>
             <NavLink to="/gallery" className={linkClass}>
               Gallery
+            </NavLink>
+            <NavLink to="/enquire" className={linkClass}>
+              Enquire
             </NavLink>
             <NavLink to="/contact" className={linkClass}>
               Contact Us
@@ -62,10 +65,10 @@ const Navbar = () => {
             </NavLink>
             <NavLink
               onClick={() => setOpen(false)}
-              to="/feature"
+              to="/facility"
               className={linkClass}
             >
-              Feature
+              Our Facilities
             </NavLink>
             <NavLink
               onClick={() => setOpen(false)}
@@ -80,6 +83,13 @@ const Navbar = () => {
               className={linkClass}
             >
               Gallery
+            </NavLink>
+            <NavLink
+              onClick={() => setOpen(false)}
+              to="/enquire"
+              className={linkClass}
+            >
+              Enquire
             </NavLink>
             <NavLink
               onClick={() => setOpen(false)}

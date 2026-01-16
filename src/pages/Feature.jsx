@@ -45,7 +45,7 @@ const features = [
 const Features = () => {
   return (
     <div className="min-h-screen bg-white text-gray-800">
-      <Heading title="Our Features" subtitle="Everything we provide to ensure quality education and holistic development." />
+      <Heading title="Our Facilities" subtitle="Everything we provide to ensure quality education and holistic development." />
      
 
       {/* Features Grid */}
@@ -69,7 +69,7 @@ const Features = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">
-            Why Choose Al-Wataniya International School?
+            Why Choose AL-Wataniya International School?
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
             We believe in nurturing young minds through a balanced approach that

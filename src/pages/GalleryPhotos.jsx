@@ -36,7 +36,7 @@ const GalleryPhoto = ({heading=false}) => {
 
       {/* Hero Section */}
       {heading &&
-        <Heading title={"School Gallery"} subtitle={"Discover moments that reflect learning, growth, and campus life at Al-Wataniya International School."} />
+        <Heading title={"School Gallery"} subtitle={"Discover moments that reflect learning, growth, and campus life at AL-Wataniya International School."} />
         
       }
         

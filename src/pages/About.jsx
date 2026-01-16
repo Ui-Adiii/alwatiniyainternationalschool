@@ -12,7 +12,7 @@ import MisionVisionCard from "../components/MisionVisionCard";
 const About = () => {
   return (
     <div className="min-h-screen bg-white text-gray-800">
-      <Heading title={"About Al-Wataniya"} subtitle={" Holistic Education in an Islamic Environment"} />
+      <Heading title={"About AL-Wataniya"} subtitle={" Holistic Education in an Islamic Environment"} />
     
 
       {/* About Content */}
@@ -20,7 +20,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto px-4 space-y-6 text-lg leading-relaxed">
   <p>
     <span className="font-semibold text-green-600">
-      Al-Wataniya International School
+      AL-Wataniya International School
     </span>{" "}
     is a CBSE-pattern, English-medium institution dedicated to nurturing
     young minds through quality education, moral values, and Islamic
