@@ -4,7 +4,6 @@ import Features from './Feature'
 import About from './About'
 import Contact from './Contact'
 import GalleryPhoto from './GalleryPhotos'
-import SpinnerButton from '../components/SpinnerButton'
 
 const Home = () => {
   return (
@@ -14,7 +13,6 @@ const Home = () => {
       <GalleryPhoto heading={true} />
       <About />
       <Contact />
-  {/* <SpinnerButton /> */}
     </>
   )
 }
