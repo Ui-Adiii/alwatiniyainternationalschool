@@ -1,4 +1,5 @@
 import React from "react";
+import HeroCard from "../components/HeroCard";
 
 const Hero = () => {
   return (
@@ -53,31 +54,12 @@ const Hero = () => {
 
           {/* Stats Section */}
           <div className="mt-14 grid grid-cols-2 sm:grid-cols-5 gap-4 max-w-5xl mx-auto">
-            <div className="bg-white/10 backdrop-blur rounded-xl py-4">
-              <p className="text-2xl font-bold text-green-400">Pre-Nursery</p>
-              <p className="text-sm opacity-80">Starting Classes</p>
-            </div>
-            <div className="bg-white/10 backdrop-blur rounded-xl py-4">
-              <p className="text-2xl font-bold text-green-400">Std-IV</p>
-              <p className="text-sm opacity-80">Highest Grade</p>
-            </div>
-            <div className="bg-white/10 backdrop-blur rounded-xl py-4">
-              <p className="text-2xl font-bold text-green-400">CCTV</p>
-              <p className="text-sm opacity-80">Full Surveillance</p>
-            </div>
-            <div className="bg-white/10 backdrop-blur rounded-xl py-4">
-              <p className="text-2xl font-bold text-green-400">AI Lab</p>
-              <p className="text-sm opacity-80">Modern Learning</p>
-            </div>
-            <div className="relative bg-white/10 backdrop-blur rounded-xl py-6 px-4 text-center overflow-hidden">
-  {/* Corner Badge */}
-  <span className="absolute top-0 right-0 text-[10px] font-semibold text-yellow-400 bg-yellow-400/15 px-3 py-1 rounded-bl-lg tracking-wide">
-    Coming Soon
-  </span>
-
-  <p className="text-2xl font-bold text-green-400">Matriculation</p>
-</div>
-
+            <HeroCard head={'Pre-Nursery'} subHead={'Starting Classes'} />
+            <HeroCard head={'Std-IV'} subHead={'Highest Grade'} />
+            <HeroCard head={'CCTV'} subHead={'Full Surveillance'} />
+            <HeroCard head={'AI Lab'} subHead={'Modern Learning'} />
+            <HeroCard head={'Coming Soon'} subHead={'Matriculation'} />
+            
           </div>
         </div>
       </div>

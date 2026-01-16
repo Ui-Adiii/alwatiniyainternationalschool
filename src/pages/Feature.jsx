@@ -6,6 +6,8 @@ import {
   FaUserGraduate,
   FaHandsHelping,
 } from "react-icons/fa";
+import Heading from "../components/Heading";
+import FeatureCard from "../components/FeatureCard";
 
 const features = [
   {
@@ -43,16 +45,8 @@ const features = [
 const Features = () => {
   return (
     <div className="min-h-screen bg-white text-gray-800">
-
-      {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r  from-green-700 to-green-800 text-white text-center">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">
-          Our Features
-        </h1>
-        <p className="text-lg sm:text-xl max-w-2xl mx-auto opacity-95">
-          Everything we provide to ensure quality education and holistic development.
-        </p>
-      </section>
+      <Heading title="Our Features" subtitle="Everything we provide to ensure quality education and holistic development." />
+     
 
       {/* Features Grid */}
       <section className="py-16">
@@ -60,20 +54,12 @@ const Features = () => {
           {features.map((item, index) => {
             const Icon = item.icon;
             return (
-              <div
+              <FeatureCard
                 key={index}
-                className="bg-white rounded-xl border shadow-sm hover:shadow-lg transition p-6 text-center"
-              >
-                <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-green-100 mb-5">
-                  <Icon className="text-green-600 text-3xl" />
-                </div>
-                <h3 className="text-xl font-semibold mb-3">
-                  {item.title}
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  {item.desc}
-                </p>
-              </div>
+                title={item.title}
+                desc={item.desc}
+                Icon={Icon}
+              />
             );
           })}
         </div>

@@ -18,7 +18,7 @@ const GalleryVideo = () => {
         </h1>
         <p className="text-lg sm:text-xl max-w-2xl mx-auto opacity-95">
           Experience real moments from classrooms, activities, and student life at
-    Al-Wataniya International School.
+          Al-Wataniya International School.
         </p>
       </section>
     <section className="py-16 ">
@@ -32,11 +32,12 @@ const GalleryVideo = () => {
             {/* Video */}
             <video
               src={video}
+              playsinline 
               controls
+              alt="Gallery Video"
               preload="metadata"
               className="w-full h-56 object-cover"
             />
-            {/* Overlay (visual only) */}
             <div className="pointer-events-none absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
               <FaPlay className="text-white text-3xl opacity-80" />
             </div>

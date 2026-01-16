@@ -5,63 +5,41 @@ import {
   FaPaperPlane,
 } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
+import Heading from "../components/Heading";
+import ContactUsCard from "../components/ContactUsCard";
 
 const Contact = () => {
   return (
     <div className="min-h-screen bg-white text-gray-800">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-green-700 to-green-800 text-white text-center">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">
-          Contact Us
-        </h1>
-        <p className="text-lg sm:text-xl max-w-2xl mx-auto opacity-95">
-          We are here to help you with admissions and any school-related
-          queries.
-        </p>
-      </section>
+      <Heading
+        title={"Contact Us"}
+        subtitle={
+          "We are here to help you with admissions and any school-related queries."
+        }
+      />
 
       {/* Contact Info */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Phone */}
-          <div className="bg-white rounded-xl shadow-sm p-6 text-center hover:shadow-md transition">
-            <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-green-100 mb-4">
-              <FaPhoneAlt className="text-green-600 text-2xl" />
-            </div>
-            <h3 className="text-xl font-semibold mb-1">Phone Support</h3>
-            <p className="font-medium">9279809145 , 6201543640</p>
-            <p className="text-sm text-gray-500 mt-1">
-              Monday – Saturday | 9:00 AM – 12:30 PM
-            </p>
-          </div>
-
-          {/* Address */}
-          <div className="bg-white rounded-xl shadow-sm p-6 text-center hover:shadow-md transition">
-            <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-green-100 mb-4">
-              <FaMapMarkerAlt className="text-green-600 text-2xl" />
-            </div>
-            <h3 className="text-xl font-semibold mb-1">School Address</h3>
-            <p className="text-sm leading-relaxed">
-              Millat Colony, Kanke, Ranchi – 834006
-            </p>
-            <p className="text-sm text-gray-500 mt-1">
-              {/* Landmark: Animal Hospital */}
-            </p>
-          </div>
-
-          <div className="bg-white rounded-xl shadow-sm p-6 text-center hover:shadow-md transition">
-            <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-green-100 mb-4">
-              <FaEnvelope className="text-green-600 text-2xl" />
-            </div>
-
-            <h3 className="text-xl font-semibold mb-1">Email</h3>
-
-            <p className="text-sm leading-relaxed">info@alwataniya.edu</p>
-
-            <p className="text-sm text-gray-500 mt-1">
-              For admissions & general inquiries
-            </p>
-          </div>
+          <ContactUsCard
+            Icon={FaPhoneAlt}
+            title={"Phone Support"}
+            description={"9279809145 , 6201543640"}
+            sub={"Monday – Saturday | 9:00 AM – 12:30 PM"}
+          />
+          <ContactUsCard
+            Icon={FaMapMarkerAlt}
+            title={"School Address"}
+            sub={"Millat Colony, Kanke, Ranchi – 834006"}
+          />
+          <ContactUsCard
+            Icon={FaEnvelope}
+            title={"Email"}
+            description={"info@alwataniya.edu"}
+            sub={"For admissions & general inquiries"}
+          />
         </div>
       </section>
 

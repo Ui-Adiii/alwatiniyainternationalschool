@@ -8,7 +8,7 @@ const Navbar = () => {
     `block py-2 ${isActive ? "text-yellow-400" : "text-white"}`;
 
   return (
-    <header className="sticky top-0 z-50 bg-slate-900">
+    <header className="sticky top-0 z-50 bg-slate-900 border-b border-slate-700 shadow-md">
       <nav className="max-w-7xl mx-auto px-4">
         {/* Top Bar */}
         <div className="flex items-center justify-between h-20 md:h-26">

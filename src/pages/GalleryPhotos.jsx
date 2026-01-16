@@ -2,6 +2,9 @@ import science from "../assets/images/gallery/science-exhibition.jpg";
 import nutrition from "../assets/images/gallery/nutrition-awareness.jpg";
 import community from "../assets/images/gallery/community-engagement.jpg";
 import classroom from "../assets/images/gallery/classroom-environment.jpg";
+import Heading from "../components/Heading";
+import LazyImage from "../components/LazyImage";
+import GalleryImageCard from "../components/GalleryImageCard";
 
 const galleryItems = [
   {
@@ -32,43 +35,17 @@ const GalleryPhoto = ({heading=false}) => {
     <div className="min-h-screen bg-white text-gray-800">
 
       {/* Hero Section */}
-      {heading && <section className="py-20 bg-gradient-to-r from-green-700 to-green-800 text-white text-center">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">
-          School Gallery
-        </h1>
-        <p className="text-lg sm:text-xl max-w-2xl mx-auto opacity-95">
-          Discover moments that reflect learning, growth, and campus life at
-          Al-Wataniya International School.
-        </p>
-      </section>}
+      {heading &&
+        <Heading title={"School Gallery"} subtitle={"Discover moments that reflect learning, growth, and campus life at Al-Wataniya International School."} />
+        
+      }
+        
 
-      {/* Gallery Grid */}
+          {/* Gallery Grid */}
       <section className="py-16">
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
           {galleryItems.map((item, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition"
-            >
-              {/* Image */}
-              <div className="relative overflow-hidden">
-                <img
-                  src={item.src}
-                  alt={item.title}
-                  className="w-full h-56 object-cover object-center hover:scale-105 transition duration-300"
-                />
-              </div>
-
-              {/* Content */}
-              <div className="p-5">
-                <h3 className="text-xl font-semibold mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  {item.desc}
-                </p>
-              </div>
-            </div>
+           <GalleryImageCard key={index} src={item.src} title={item.title} desc={item.desc} />
           ))}
         </div>
       </section>
