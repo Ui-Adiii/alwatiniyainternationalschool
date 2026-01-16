@@ -1,9 +1,8 @@
-import science from "../assets/images/gallery/science-exhibition.jpg";
-import nutrition from "../assets/images/gallery/nutrition-awareness.jpg";
-import community from "../assets/images/gallery/community-engagement.jpg";
-import classroom from "../assets/images/gallery/classroom-environment.jpg";
+import science from "../assets/images/gallery/science-exhibition.webp";
+import nutrition from "../assets/images/gallery/nutrition-awareness.webp";
+import community from "../assets/images/gallery/community-engagement.webp";
+import classroom from "../assets/images/gallery/classroom-environment.webp";
 import Heading from "../components/Heading";
-import LazyImage from "../components/LazyImage";
 import GalleryImageCard from "../components/GalleryImageCard";
 
 const galleryItems = [

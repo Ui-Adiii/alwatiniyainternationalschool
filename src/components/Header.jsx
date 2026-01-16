@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+import Logo from "./Logo";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -13,9 +14,7 @@ const Navbar = () => {
         {/* Top Bar */}
         <div className="flex items-center justify-between h-20 md:h-26">
           {/* Logo */}
-          <NavLink to={"/"} className={ 'w-16 h-16 md:w-24 md:h-24 bg-white rounded-full flex items-center justify-center'}>
-            <img src="/logo.png" className="w-full h-full object-cover" alt="" />   
-          </NavLink>
+          <Logo />
 
           {/* Hamburger */}
           <button

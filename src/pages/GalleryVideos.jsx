@@ -1,11 +1,11 @@
 import { FaPlay } from "react-icons/fa";
 
-import video1 from "../assets/videos/gallery/video1.mp4";
-import video2 from "../assets/videos/gallery/video2.mp4";
-import video3 from "../assets/videos/gallery/video3.mp4";
-import video4 from "../assets/videos/gallery/video4.mp4";
-import video5 from "../assets/videos/gallery/video5.mp4";
-import video6 from "../assets/videos/gallery/video6.mp4";
+import video1 from "../assets/videos/gallery/video1.mov";
+import video2 from "../assets/videos/gallery/video2.webm";
+import video3 from "../assets/videos/gallery/video3.webm";
+import video4 from "../assets/videos/gallery/video4.webm";
+import video5 from "../assets/videos/gallery/video5.webm";
+import video6 from "../assets/videos/gallery/video6.webm";
 
 const galleryVideos = [video1, video2, video3, video4, video5, video6];
 
